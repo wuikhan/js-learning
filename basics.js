@@ -20,3 +20,16 @@ console.log(job);
 var fName = 'John';
 var age = 29;
 console.log(fName + ' ' +age);
+
+var job, isMarried;
+job = 'teacher';
+isMarried = false;
+console.log(fName + ' ' + age + ' ' + job + ' ' + isMarried );
+
+// variable mutation is changing the value of variable
+age = 'twenty eight';
+console.log(age);
+
+// var lastName = prompt('What is his last name ?');
+// console.log(lastName)
+
