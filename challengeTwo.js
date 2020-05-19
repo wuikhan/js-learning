@@ -11,20 +11,22 @@
  * 5. Like before change the scores to generate different winners keeping in ming there might be draws.
  */
 
- johnTeam = 11 + 11 + 11;
- mikeTeam = 11 + 11 + 11;
- maryTeam = 11 + 11 + 11;
+ var johnTeam = 111 + 11 + 11;
+ var mikeTeam = 11 + 11 + 11;
+ var maryTeam = 11 + 11 + 11;
 
- johnAvg = johnTeam / 3;
- mikeAvg = mikeTeam / 3;
- maryAvg = maryTeam / 3;
+ var johnAvg = johnTeam / 3;
+ var mikeAvg = mikeTeam / 3;
+ var maryAvg = maryTeam / 3;
+
+ console.log(johnAvg, mikeAvg, maryAvg);
 
  if(johnAvg > mikeAvg && johnAvg > maryAvg){
-     console.log('John\'s team is the winner');
+     console.log('John\'s team is the winner '+johnAvg);
  } else if (mikeAvg > johnAvg && mikeAvg > maryAvg) {
-     console.log('Mike\'s team is the winner');
+     console.log('Mike\'s team is the winner '+mikeAvg);
  } else if (maryAvg > johnAvg && maryAvg > mikeAvg) {
-     console.log('Mary\'s team is the winner');
+     console.log('Mary\'s team is the winner '+maryAvg);
  } else {
      console.log('it\'s a draw');
  }
