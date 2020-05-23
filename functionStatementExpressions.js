@@ -23,3 +23,7 @@ var whatDoYouDo = function(job, firstName) {
 
 console.log(whatDoYouDo('teacher', 'Waqas'));
 
+/**
+ * expression is which provides a value
+ * statement does not provide the immediate value 
+ */
