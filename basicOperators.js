@@ -68,3 +68,6 @@ console.log(x); // 12
 x--;
 console.log(x); // 11
 
+let a = 10;
+
+document.getElementById("hello").innerHTML = a;
