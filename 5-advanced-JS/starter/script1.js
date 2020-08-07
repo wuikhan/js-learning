@@ -7,16 +7,7 @@ var PersonProto = {
 };
 // not an ideal way
 var john = Object.create(PersonProto);
-john.name = "John";
-john.age = 1990;
-john.job = "Analyst";
-
-var jane = Object.create(PersonProto, {
-  name: { value: "Jane" },
-  age: { value: 1965 },
-  job: { value: "Designer" },
-});
-
+9;
 // Primitive vs Objects
 //Primitive
 
@@ -27,7 +18,7 @@ console.log(a);
 console.log(b);
 
 // Objects
-
+3m2wZ
 var obj1 = {
   name: "John",
   age: 26,
