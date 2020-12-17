@@ -81,7 +81,7 @@ function maxHeartRate(el){
     } else {
         return -1;
     }
- 
+
 }
 
 var fe = test(years,isFullAge);
@@ -126,7 +126,7 @@ game();
 (function(){
     var score = Math.random() * 10;
     console.log(score>=5);
-})(); 
+})();
 
 // lecutre : closures
 // an inner function has always access to the variables and paramters of its outer functions
@@ -143,5 +143,5 @@ function retirement(retirementAge){
 var retirementUS = retirement(66);
 retirementUS(1990);
 
-// or 
+// or
 retirement(66)(1990);
